@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Department Courses</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>CSE Department Courses</h1>
+        <p>List of all courses for every semester</p>
+    </header>
+
+    <!-- Course List -->
+    <div class="container">
+        <h2>Course List</h2>
+        <ul>
+            <li>1st Semester: Programming Basics, Mathematics-I, Physics</li>
+            <li>2nd Semester: Data Structures, Digital Logic, Mathematics-II</li>
+            <li>3rd Semester: Operating Systems, Computer Networks, DBMS</li>
+            <li>4th Semester: AI & ML, Web Development, Embedded Systems</li>
+            <li>5th Semester: Cyber Security, Cloud Computing, IoT</li>
+            <li>6th Semester: Blockchain, Big Data, Quantum Computing</li>
+            <li>7th Semester: Research Projects, Internship</li>
+            <li>
+                <button id="spring-btn">Spring Semester Courses (Click to View Timetable)</button>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Timetable (Initially Hidden) -->
+    <div id="timetable" class="container hidden">
+        <h2>Spring Semester Timetable</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>9:00 - 10:30</th>
+                    <th>10:30 - 12:00</th>
+                    <th>1:00 - 2:30</th>
+                    <th>2:30 - 4:00</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>AI & ML</td>
+                    <td>Web Development</td>
+                    <td>Cloud Computing</td>
+                    <td>Cyber Security</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Embedded Systems</td>
+                    <td>Big Data</td>
+                    <td>Blockchain</td>
+                    <td>Quantum Computing</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>IoT</td>
+                    <td>Cyber Security</td>
+                    <td>Research Projects</td>
+                    <td>Internship Work</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>AI & ML</td>
+                    <td>Cloud Computing</td>
+                    <td>Blockchain</td>
+                    <td>Web Development</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Big Data</td>
+                    <td>Quantum Computing</td>
+                    <td>Cyber Security</td>
+                    <td>Internship Work</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
